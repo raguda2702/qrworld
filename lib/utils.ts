@@ -1,0 +1,1 @@
+export function formatDate(ts?: number) { if (!ts) return "—"; return new Date(ts).toLocaleString(); } export function setSessionCookie(enabled: boolean) { if (typeof document === "undefined") return; if (enabled) document.cookie = "qrw_session=1; path=/; max-age=2592000; SameSite=Lax"; else document.cookie = "qrw_session=; path=/; max-age=0; SameSite=Lax"; }

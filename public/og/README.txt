@@ -1,0 +1,1 @@
+Put your 1200x630 launch image here as public/og/qrworld-launch.png\n

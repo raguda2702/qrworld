@@ -1,0 +1,3 @@
+export default function SupportPage() {
+  return <div className="container-page"><div className="surface p-6 sm:p-8"><h1 className="section-title">Support</h1><p className="section-subtitle">Use this page for contact details, issue reporting, billing support and account help.</p><div className="mt-6 grid gap-4 md:grid-cols-2"><div className="rounded-3xl border border-slate-200 bg-white p-4"><div className="font-semibold">General support</div><p className="mt-2 text-sm text-slate-500">support@yourdomain.com</p></div><div className="rounded-3xl border border-slate-200 bg-white p-4"><div className="font-semibold">Billing support</div><p className="mt-2 text-sm text-slate-500">billing@yourdomain.com</p></div></div></div></div>;
+}

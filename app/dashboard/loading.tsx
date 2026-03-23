@@ -1,0 +1,2 @@
+import { CardSkeleton } from "@/components/ui/Skeleton";
+export default function LoadingDashboard() { return <div className="container-page"><div className="mb-6"><div className="h-8 w-44 animate-pulse rounded-xl bg-slate-200" /><div className="mt-3 h-4 w-64 animate-pulse rounded-xl bg-slate-200" /></div><div className="stats-grid"><CardSkeleton /><CardSkeleton /><CardSkeleton /><CardSkeleton /></div></div>; }
